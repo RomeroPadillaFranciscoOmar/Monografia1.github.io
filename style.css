@@ -1,0 +1,33 @@
+
+  body{
+    background-image: url(https://lh6.googleusercontent.com/40DPS6qX6TuDR3W29isYPHpuqjXdnX5Zu1GBfw4wHGlm7AgCIn8TLz2VYQnX9G24bYIfBNd2L4GZm3garFS5VAmqvZ7zSdGl8A-iB8J3ENOCTYAgteROmGxLQRKoNJbic1wGK_6aauthPdGIKA=s0);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cuadro1 {
+  position: relative;
+}
+
+.imagen {
+  display: block;
+  width:1000px ;
+  height:700px;
+}
+
+.abajo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+.cuadro1:hover .abajo {
+  opacity: 1;
+}
+
+.cuadro2 {
+  transform: rotateY(180deg);
+}
+ 
